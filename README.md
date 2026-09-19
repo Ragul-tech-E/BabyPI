@@ -1,5 +1,15 @@
 # 🍼 BabyPI — Edge-AI Neonatal Monitoring & Baby Cry Analysis
+# 🍼 BabyPI — Edge-AI Neonatal Monitoring & Baby Cry Analysis
 
+<p align="center">
+  <img src="images/file_00000000128482088a7943b87148031a.png" width="900">
+</p>
+
+<p align="center">
+  <b>Edge AI • ECG • SpO₂ • Temperature • Baby Cry Analysis • VitalScope</b>
+</p>
+
+---
 <p align="center">
   <b>Edge AI • Embedded Systems • ECG • SpO₂ • Temperature • Smart Power Management • Real-Time Monitoring</b>
 </p>
