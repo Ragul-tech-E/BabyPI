@@ -1,0 +1,42 @@
+BABY CRY AI COMPLETE MODEL REPORT
+==========================================================================================
+
+Model                 : BabyAudioStrongCNN
+TFLite size           : 0.153 MB
+H5 size               : 1.578 MB
+TensorFlow             : 2.10.0
+Input shape            : [1, 500, 24, 1]
+Output shape           : [1, 5]
+Classes                : 5
+TFLite parameters      : 3,167,788
+TFLite parameters (M)  : 3.1678 M
+H5 stored weights     : 115,829
+H5 weights (M)        : 0.1158 M
+TFLite nodes/operators: 46
+Activation tensors     : 145
+Activation neurons     : 7,328,365
+Activation neurons (M) : 7.3284 M
+Maximum activation     : 384,000
+
+CLASS MAPPING
+--------------------------------------------------
+0 -> Asphyxia
+1 -> Deaf
+2 -> Hunger
+3 -> Normal
+4 -> Pain
+
+OPERATOR DISTRIBUTION
+--------------------------------------------------
+ADD                                 4
+CONCATENATION                       1
+CONV_2D                             12
+DELEGATE                            10
+DEPTHWISE_CONV_2D                   8
+FULLY_CONNECTED                     2
+MAX_POOL_2D                         4
+MEAN                                1
+MUL                                 1
+REDUCE_MAX                          1
+SOFTMAX                             1
+SUB                                 1

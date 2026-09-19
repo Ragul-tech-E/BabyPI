@@ -1,0 +1,29 @@
+# BabyPI Raspberry Pi runtime dependencies
+#
+# Tested/developed around Raspberry Pi Zero 2 W / Raspberry Pi OS.
+# Keep TensorFlow training dependencies separate from the Raspberry Pi
+# runtime environment. For edge deployment, TensorFlow Lite Runtime
+# is preferred over installing the full TensorFlow package on the Pi.
+#
+# Install:
+#   python3 -m venv .venv
+#   source .venv/bin/activate
+#   pip install -r requirements.txt
+
+numpy
+scipy
+librosa
+soundfile
+joblib
+xgboost
+tflite-runtime
+sounddevice
+Pillow
+luma.oled
+luma.core
+adafruit-blinka
+adafruit-circuitpython-ads1x15
+requests
+Flask
+openpyxl
+python-dateutil
