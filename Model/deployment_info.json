@@ -1,0 +1,36 @@
+{
+    "model": "BabyAudioStrongCNN",
+    "tensorflow_version": "2.10.0",
+    "num_classes": 5,
+    "classes": [
+        "Asphyxia",
+        "Deaf",
+        "Hunger",
+        "Normal",
+        "Pain"
+    ],
+    "input_shape": [
+        1,
+        500,
+        24,
+        1
+    ],
+    "input_dtype": "float32",
+    "sample_rate": 16000,
+    "mfcc_library": "python_speech_features",
+    "mfcc_parameters": {
+        "numcep": 24,
+        "winlen": 0.025,
+        "winstep": 0.01,
+        "nfft": 1024
+    },
+    "fixed_frames": 500,
+    "keras_test_accuracy": 0.20245398581027985,
+    "tflite_test_accuracy": 0.8006134969325154,
+    "training_time_seconds": 2131.363974094391,
+    "batch_size": 8,
+    "normalization_embedded_in_model": true,
+    "pi_needs_normalization_file": false,
+    "tflite_model": "models\\baby_audio_strong.tflite",
+    "label_map": "models\\label_map.json"
+}

@@ -1,0 +1,80 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets / local configuration
+.env
+.env.*
+*.secret
+secrets/
+config_local.py
+wifi_config.py
+credentials.py
+
+# Logs / runtime data
+*.log
+logs/
+runtime/
+tmp/
+temp/
+
+# Audio recordings / private data
+*.wav
+*.mp3
+*.flac
+recordings/
+private_data/
+patient_data/
+
+# Generated ML features / caches
+feature_cache/
+*.npy
+*.npz
+*.pkl.cache
+
+# Large training outputs
+checkpoints/
+runs/
+wandb/
+tensorboard/
+*.ckpt
+*.h5
+*.keras
+
+# Keep explicitly selected models by using force-add or exceptions
+# Example:
+# !Model/tflite/final_model.tflite
+
+# Build / generated files
+build/
+dist/
+*.egg-info/
+
+# Excel logs
+*.xlsx
+
+# Local Raspberry Pi files
+*.pid
+*.sock
+
+# Generated reports
+generated_reports/

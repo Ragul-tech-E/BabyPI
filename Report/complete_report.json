@@ -1,0 +1,62 @@
+{
+    "generator": "Complete Baby Cry AI Report Generator",
+    "base_dir": "C:\\Users\\Raghul\\Desktop\\BabyPI\\models\\New folder",
+    "tensorflow_version": "2.10.0",
+    "classes": [
+        "Asphyxia",
+        "Deaf",
+        "Hunger",
+        "Normal",
+        "Pain"
+    ],
+    "h5": {
+        "path": "C:\\Users\\Raghul\\Desktop\\BabyPI\\models\\New folder\\baby_audio_strong_best.h5",
+        "size_MB": 1.5782470703125,
+        "load_status": "Loaded successfully",
+        "error": "",
+        "saved_weight_groups": null,
+        "model_config_layers": null
+    },
+    "tflite": {
+        "path": "C:\\Users\\Raghul\\Desktop\\BabyPI\\models\\New folder\\baby_audio_strong.tflite",
+        "size_MB": 0.15250396728515625,
+        "input_shape": [
+            1,
+            500,
+            24,
+            1
+        ],
+        "input_dtype": "<class 'numpy.float32'>",
+        "output_shape": [
+            1,
+            5
+        ],
+        "output_dtype": "<class 'numpy.float32'>",
+        "tensor_count": 149
+    },
+    "preprocessing": {
+        "sample_rate": 16000,
+        "mfcc_library": "python_speech_features",
+        "num_mfcc": 24,
+        "winlen": 0.025,
+        "winstep": 0.01,
+        "nfft": 1024,
+        "max_frames": 500,
+        "final_shape": [
+            500,
+            24,
+            1
+        ]
+    },
+    "test": {
+        "directory": "C:\\Users\\Raghul\\Desktop\\BabyPI\\combined\\test",
+        "files_found": 1956,
+        "files_evaluated": 1956,
+        "failures": [],
+        "accuracy": 0.8006134969325154,
+        "weighted_precision": 0.8112307050874636,
+        "weighted_recall": 0.8006134969325154,
+        "weighted_f1": 0.8037807500620917
+    },
+    "output_directory": "C:\\Users\\Raghul\\Desktop\\BabyPI\\models\\New folder\\AI_REPORT_IMAGES"
+}

@@ -1,0 +1,11 @@
+              precision    recall  f1-score   support
+
+    Asphyxia     0.9640    0.8562    0.9069       438
+        Deaf     0.7802    0.5917    0.6730       120
+      Hunger     0.8583    0.6899    0.7649       474
+      Normal     0.8610    0.8983    0.8793       600
+        Pain     0.5288    0.7654    0.6255       324
+
+    accuracy                         0.7975      1956
+   macro avg     0.7985    0.7603    0.7699      1956
+weighted avg     0.8234    0.7975    0.8031      1956
