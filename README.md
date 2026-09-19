@@ -1,5 +1,4 @@
 # 🍼 BabyPI — Edge-AI Neonatal Monitoring & Baby Cry Analysis
-# 🍼 BabyPI — Edge-AI Neonatal Monitoring & Baby Cry Analysis
 
 <p align="center">
   <img src="images/file_00000000128482088a7943b87148031a.png" width="900">
