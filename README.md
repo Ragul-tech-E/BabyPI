@@ -109,6 +109,13 @@ The system combines:
                               Raspberry Pi
                               Power Control
 ```
+<p align="center">
+  <img
+    src="images/Schematic_bca_Prototype.v.1_2026-09-18%20(3).png"
+    alt="BabyPI System Architecture"
+    width="1000"
+  >
+</p>
 
 ---
 
