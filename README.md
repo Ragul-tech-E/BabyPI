@@ -56,7 +56,6 @@ The system combines:
     width="1000"
   >
 </p>
----
 ```
 # Schematic Digram
 <p align="center">
