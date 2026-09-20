@@ -60,7 +60,6 @@ The system combines:
 <p align="center">
   <i>BabyPI system architecture and hardware interconnection</i>
 </p>
-```
 
 # Schematic Digram
 <p align="center">
