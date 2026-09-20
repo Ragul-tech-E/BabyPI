@@ -49,14 +49,14 @@ The system combines:
 
 # System Architecture
 
-```text
 <p align="center">
   <img
-    src="images/file_000000004038821187bd06a03c55123b.png"
+    src="images/images/file_000000004038821187bd06a03c55123b.png"
     alt="BabyPI System Architecture"
     width="1000"
   >
 </p>
+---
 ```
 # Schematic Digram
 <p align="center">
