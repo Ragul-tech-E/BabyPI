@@ -50,65 +50,15 @@ The system combines:
 # System Architecture
 
 ```text
-                         ┌──────────────────────────┐
-                         │      VitalScope Web      │
-                         │   Browser Dashboard      │
-                         │                          │
-                         │ • Live ECG              │
-                         │ • Heart Rate            │
-                         │ • SpO₂                   │
-                         │ • Temperature           │
-                         │ • Cry Analysis           │
-                         │ • Data Recording         │
-                         │ • XLSX Export            │
-                         └────────────┬─────────────┘
-                                      │
-                                  Wi-Fi / HTTP
-                                      │
-                                      ▼
-              ┌────────────────────────────────────────────┐
-              │          Raspberry Pi Zero 2 W             │
-              │                 MASTER                     │
-              │                                            │
-              │  INMP441 ─────► Audio / Cry AI             │
-              │                                            │
-              │  AD8232 ──────► ADS1115 ─────► ECG        │
-              │                                            │
-              │  Battery ─────► Divider ─────► ADS1115    │
-              │                                            │
-              │  SH1106 OLED ───────────────► Local UI     │
-              │                                            │
-              │  Wi-Fi ◄──────────────► ESP32 Node         │
-              └──────────────────────┬─────────────────────┘
-                                     │
-                               Automatic Discovery
-                                     │
-                                     ▼
-                         ┌────────────────────────┐
-                         │      ESP32 NODE         │
-                         │     Wearable Unit       │
-                         │                        │
-                         │ MAX30102 → SpO₂/Pulse │
-                         │ DS18B20  → Temperature │
-                         └────────────────────────┘
-
-
-                         POWER MANAGEMENT
-
-                         ┌─────────────────────┐
-                         │      ATtiny402      │
-                         │                     │
-                         │ • Single button     │
-                         │ • Power latch       │
-                         │ • Battery monitor   │
-                         │ • Low-battery       │
-                         │ • Shutdown control  │
-                         └──────────┬──────────┘
-                                    │
-                                    ▼
-                              Raspberry Pi
-                              Power Control
+<p align="center">
+  <img
+    src="images/file_000000004038821187bd06a03c55123b.png"
+    alt="BabyPI System Architecture"
+    width="1000"
+  >
+</p>
 ```
+# Schematic Digram
 <p align="center">
   <img
     src="images/Schematic_bca_Prototype.v.1_2026-09-18%20(3).png"
