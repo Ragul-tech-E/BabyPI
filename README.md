@@ -47,17 +47,23 @@ The system combines:
 
 ---
 
-# System Architecture
+# System Architecture 
 
 <p align="center">
-  <img
-    src="images/images/file_000000004038821187bd06a03c55123b.png"
+  <img 
+    src="images/file_000000004038821187bd06a03c55123b.png"
     alt="BabyPI System Architecture"
     width="1000"
   >
 </p>
+
+<p align="center">
+  <i>BabyPI system architecture and hardware interconnection</i>
+</p>
 ```
-# **Schematic Digram**
+---
+
+# Schematic Digram
 <p align="center">
   <img
     src="images/Schematic_bca_Prototype.v.1_2026-09-18%20(3).png"
